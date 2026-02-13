@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NutriGLP — Track Your GLP-1 Journey</title>
+    <meta name="description"
+        content="The smart companion for Ozempic, Wegovy, Mounjaro, and Zepbound. Track medication, optimize nutrition, and monitor progress — free on iOS.">
+    <link rel="icon" href="icon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- ===================== NAVBAR ===================== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo" aria-label="NutriGLP Home">
+                <img src="icon.png" alt="NutriGLP Icon" class="nav-icon">
+                <span class="nav-wordmark">NUTRI<span class="text-green">GLP</span></span>
+            </a>
+
+            <div class="nav-links" id="nav-links">
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#showcase" class="nav-link">App</a>
+                <a href="#how-it-works" class="nav-link">How It Works</a>
+                <a href="#faq" class="nav-link">FAQ</a>
+            </div>
+
+            <a href="https://apps.apple.com/us/app/nutriglp/id6758135559" target="_blank" rel="noopener noreferrer"
+                class="nav-cta">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                    <polyline points="7 10 12 15 17 10" />
+                    <line x1="12" y1="15" x2="12" y2="3" />
+                </svg>
+                Download App
+            </a>
+
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-orbs">
+            <div class="orb orb-green"></div>
+            <div class="orb orb-dark"></div>
+        </div>
+
+        <div class="container hero-content">
+            <div class="hero-badge reveal">The gold standard in GLP-1 tracking</div>
+
+            <h1 class="hero-title reveal">
+                Track Your GLP-1 Journey.<br>
+                <span class="text-green">Stay on Schedule.</span>
+            </h1>
+
+            <p class="hero-subtitle reveal">
+                The smart companion for Ozempic, Wegovy, Mounjaro, and Zepbound.
+                Track your medication, optimize nutrition, and monitor your progress with clarity.
+            </p>
+
+            <div class="hero-actions reveal">
+                <a href="https://apps.apple.com/us/app/nutriglp/id6758135559" target="_blank" rel="noopener noreferrer"
+                    class="btn-primary btn-lg">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z" />
+                    </svg>
+                    Download on App Store
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="5" y1="12" x2="19" y2="12" />
+                        <polyline points="12 5 19 12 12 19" />
+                    </svg>
+                </a>
+            </div>
+
+            <div class="hero-brands reveal">
+                <span>Ozempic</span>
+                <span>Wegovy</span>
+                <span>Mounjaro</span>
+                <span>Zepbound</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== APP SHOWCASE ===================== -->
+    <section class="showcase" id="showcase">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title gradient-text">Beautiful Interface.</h2>
+                <p class="section-subtitle">Designed with precision. Built for your wellness journey.</p>
+            </div>
+
+            <div class="showcase-phones reveal">
+                <div class="phone-wrapper phone-side">
+                    <div class="phone-frame">
+                        <img src="IMG_3698.PNG" alt="NutriGLP Wellness Diary" loading="lazy">
+                    </div>
+                    <span class="phone-label">Wellness Diary</span>
+                </div>
+                <div class="phone-wrapper phone-center">
+                    <div class="phone-frame">
+                        <img src="IMG_3694.PNG" alt="NutriGLP Home Dashboard" loading="lazy">
+                    </div>
+                    <span class="phone-label">Home Dashboard</span>
+                </div>
+                <div class="phone-wrapper phone-side">
+                    <div class="phone-frame">
+                        <img src="IMG_3696.PNG" alt="NutriGLP Insights" loading="lazy">
+                    </div>
+                    <span class="phone-label">Insights & Trends</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== FEATURES ===================== -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title gradient-text">Engineered for Success.</h2>
+                <p class="section-subtitle">Comprehensive toolset for your GLP-1 journey.</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card reveal">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="m14.5 6.5 1 1" />
+                            <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L7 20l-4 1 1-4Z" />
+                            <path d="m14.5 6.5-9.06 9.06a1.5 1.5 0 0 0-.44 1.06v.88" />
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Track Your Medication</h3>
+                    <ul class="feature-list">
+                        <li>Log shots with dose, injection site, and timing</li>
+                        <li>7-day medication level visualization</li>
+                        <li>Smart reminders so you never miss a dose</li>
+                        <li>Bio Forecast showing appetite suppression patterns</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card reveal">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2" />
+                            <path d="M7 2v20" />
+                            <path d="M21 15V2v0a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7" />
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Optimize Your Nutrition</h3>
+                    <ul class="feature-list">
+                        <li>Daily protein, water, and fiber tracking</li>
+                        <li>Meal planning synced to your shot schedule</li>
+                        <li>Food logging with nutrition breakdown</li>
+                        <li>Understand how medication affects hunger</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card reveal">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Monitor Your Progress</h3>
+                    <ul class="feature-list">
+                        <li>Weight tracking with BMI calculations</li>
+                        <li>Visual trends and progress charts</li>
+                        <li>Personalized insights based on your data</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card reveal">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9" />
+                            <path d="M10.3 21a1.94 1.94 0 0 0 3.4 0" />
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Smart Reminders</h3>
+                    <ul class="feature-list">
+                        <li>Weekly injection & pre-shot reminders</li>
+                        <li>Missed shot alerts</li>
+                        <li>Low supply & hydration reminders</li>
+                        <li>Fully customizable schedule</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== HOW IT WORKS ===================== -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <div class="section-header reveal">
+                <div class="section-badge">Simple & Powerful</div>
+                <h2 class="section-title gradient-text">How It Works.</h2>
+                <p class="section-subtitle">Four simple steps to take control of your GLP-1 journey.</p>
+            </div>
+
+            <div class="steps-grid">
+                <div class="step-card reveal">
+                    <div class="step-number">01</div>
+                    <div class="step-icon-wrap">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="m14.5 6.5 1 1" />
+                            <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L7 20l-4 1 1-4Z" />
+                            <path d="m14.5 6.5-9.06 9.06a1.5 1.5 0 0 0-.44 1.06v.88" />
+                        </svg>
+                    </div>
+                    <h3 class="step-title">Log Your Shot</h3>
+                    <p class="step-desc">Record your dose, injection site, and timing. Quick and easy tracking every
+                        time.</p>
+                </div>
+
+                <div class="step-card reveal">
+                    <div class="step-number">02</div>
+                    <div class="step-icon-wrap">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M3 3v18h18" />
+                            <path d="m19 9-5 5-4-4-3 3" />
+                        </svg>
+                    </div>
+                    <h3 class="step-title">Track Bio Forecast</h3>
+                    <p class="step-desc">Visualize your 7-day medication curve and appetite suppression patterns.</p>
+                </div>
+
+                <div class="step-card reveal">
+                    <div class="step-number">03</div>
+                    <div class="step-icon-wrap">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
+                        </svg>
+                    </div>
+                    <h3 class="step-title">Monitor Progress</h3>
+                    <p class="step-desc">Track weight, BMI, nutrition, and hydration with visual trends and insights.
+                    </p>
+                </div>
+
+                <div class="step-card reveal">
+                    <div class="step-number">04</div>
+                    <div class="step-icon-wrap">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9" />
+                            <path d="M10.3 21a1.94 1.94 0 0 0 3.4 0" />
+                        </svg>
+                    </div>
+                    <h3 class="step-title">Stay on Schedule</h3>
+                    <p class="step-desc">Get smart reminders for shots, hydration, and daily progress updates.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== SCREENSHOTS GALLERY ===================== -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title gradient-text">See It In Action.</h2>
+                <p class="section-subtitle">Every screen designed for clarity and ease of use.</p>
+            </div>
+
+            <div class="gallery-scroll reveal">
+                <div class="gallery-track">
+                    <div class="gallery-item">
+                        <div class="gallery-phone">
+                            <img src="IMG_3694.PNG" alt="Home Dashboard" loading="lazy">
+                        </div>
+                        <span class="gallery-caption">Home Dashboard</span>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-phone">
+                            <img src="IMG_3693.PNG" alt="Shots Management" loading="lazy">
+                        </div>
+                        <span class="gallery-caption">Shots Management</span>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-phone">
+                            <img src="IMG_3698.PNG" alt="Wellness Diary" loading="lazy">
+                        </div>
+                        <span class="gallery-caption">Wellness Diary</span>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-phone">
+                            <img src="IMG_3695.PNG" alt="Consistency Heatmaps" loading="lazy">
+                        </div>
+                        <span class="gallery-caption">Consistency Heatmaps</span>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-phone">
+                            <img src="IMG_3696.PNG" alt="Insights & Trends" loading="lazy">
+                        </div>
+                        <span class="gallery-caption">Insights & Trends</span>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-phone">
+                            <img src="IMG_3699.PNG" alt="Smart Notifications" loading="lazy">
+                        </div>
+                        <span class="gallery-caption">Smart Notifications</span>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-phone">
+                            <img src="IMG_3697.PNG" alt="Settings & BMI" loading="lazy">
+                        </div>
+                        <span class="gallery-caption">Settings & BMI</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== SOCIAL PROOF STRIP ===================== -->
+    <section class="proof-strip reveal">
+        <div class="container">
+            <div class="proof-grid">
+                <div class="proof-item">
+                    <span class="proof-value text-green">7 Days</span>
+                    <span class="proof-label">Free Trial</span>
+                </div>
+                <div class="proof-divider"></div>
+                <div class="proof-item">
+                    <span class="proof-value">iOS</span>
+                    <span class="proof-label">iPhone & iPad</span>
+                </div>
+                <div class="proof-divider"></div>
+                <div class="proof-item">
+                    <span class="proof-value text-green">Private</span>
+                    <span class="proof-label">On-Device Data Only</span>
+                </div>
+                <div class="proof-divider"></div>
+                <div class="proof-item">
+                    <span class="proof-value">Offline</span>
+                    <span class="proof-label">No Internet Required</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== FAQ ===================== -->
+    <section class="faq" id="faq">
+        <div class="container container-narrow">
+            <div class="section-header reveal">
+                <div class="section-badge">Questions & Answers</div>
+                <h2 class="section-title gradient-text">Frequently Asked Questions.</h2>
+                <p class="section-subtitle">Everything you need to know about NutriGLP.</p>
+            </div>
+
+            <div class="faq-list">
+                <div class="faq-item reveal">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>What medications does NutriGLP support?</span>
+                        <div class="faq-toggle"><span class="faq-icon">+</span></div>
+                    </button>
+                    <div class="faq-answer">
+                        <p>NutriGLP supports all major GLP-1 and dual GIP/GLP-1 medications including Ozempic
+                            (semaglutide), Wegovy (semaglutide), Mounjaro (tirzepatide), and Zepbound (tirzepatide). The
+                            app's bio forecast accurately models the pharmacokinetics of each medication.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item reveal">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>How does the Bio Forecast work?</span>
+                        <div class="faq-toggle"><span class="faq-icon">+</span></div>
+                    </button>
+                    <div class="faq-answer">
+                        <p>The Bio Forecast uses pharmacokinetic modeling based on your medication type, dose, and
+                            injection schedule to visualize your medication levels over a 7-day period. This helps you
+                            understand appetite suppression patterns and plan your nutrition accordingly.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item reveal">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Is my health data private?</span>
+                        <div class="faq-toggle"><span class="faq-icon">+</span></div>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, absolutely. All your medication logs, nutrition data, and health information are stored
+                            exclusively on your personal device. We do not maintain a central database of your sensitive
+                            data, and we never sell your information to third parties.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item reveal">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>How much does NutriGLP cost?</span>
+                        <div class="faq-toggle"><span class="faq-icon">+</span></div>
+                    </button>
+                    <div class="faq-answer">
+                        <p>NutriGLP offers a 7-day free trial so you can explore all features — including food logging,
+                            bio forecasts, shot tracking, and custom reminders. After the trial, a subscription is
+                            required to continue accessing premium features.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item reveal">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Will NutriGLP warn me if I log a shot too early?</span>
+                        <div class="faq-toggle"><span class="faq-icon">+</span></div>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes! NutriGLP includes smart safety warnings that detect if you're trying to log a dose
+                            before your scheduled time. This helps prevent schedule disruption and ensures you're
+                            following your proper weekly or daily dosing schedule.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item reveal">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Do I need an internet connection?</span>
+                        <div class="faq-toggle"><span class="faq-icon">+</span></div>
+                    </button>
+                    <div class="faq-answer">
+                        <p>No, NutriGLP works completely offline. Since all your data is stored locally on your device,
+                            you can log shots, track nutrition, and view your progress anytime, anywhere without an
+                            internet connection.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== FINAL CTA ===================== -->
+    <section class="final-cta reveal">
+        <div class="container">
+            <div class="cta-card">
+                <div class="cta-glow"></div>
+                <h2 class="cta-title">Ready to Take Control?</h2>
+                <p class="cta-subtitle">Join thousands tracking their GLP-1 journey with clarity and confidence.</p>
+                <a href="https://apps.apple.com/us/app/nutriglp/id6758135559" target="_blank" rel="noopener noreferrer"
+                    class="btn-primary btn-lg">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z" />
+                    </svg>
+                    Start Your Free Trial
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="5" y1="12" x2="19" y2="12" />
+                        <polyline points="12 5 19 12 12 19" />
+                    </svg>
+                </a>
+                <p class="cta-note">Available on iOS • 7-Day Free Trial</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <img src="icon.png" alt="NutriGLP Icon" class="nav-icon">
+                        <span class="nav-wordmark">NUTRI<span class="text-green">GLP</span></span>
+                    </div>
+                    <p class="footer-desc">Your comprehensive companion for medical weight loss. Empowering you with
+                        data and insights for your GLP-1 journey.</p>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-heading">Platform</h4>
+                    <ul class="footer-links">
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#showcase">App Preview</a></li>
+                        <li><a href="https://apps.apple.com/us/app/nutriglp/id6758135559" target="_blank"
+                                rel="noopener noreferrer">Download</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-heading">Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="mailto:nutriglp@yahoo.com">Contact</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-disclaimer">
+                <strong>Disclaimer</strong>
+                NutriGLP is for informational purposes only and does not provide medical advice. Always consult your
+                healthcare provider for personalized guidance. NutriGLP is not affiliated with any pharmaceutical
+                company.
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 NUTRI-GLP. ALL RIGHTS RESERVED.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
