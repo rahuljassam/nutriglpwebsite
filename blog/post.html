@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NutriGLP Journal</title>
+    <meta name="description" content="NutriGLP blog post">
+    <link rel="icon" href="../icon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        (function () {
+            var savedTheme = localStorage.getItem('nutriglp-theme');
+            var theme = savedTheme === 'dark' ? 'dark' : 'light';
+            document.documentElement.dataset.theme = theme;
+        }());
+    </script>
+    <link rel="stylesheet" href="blog.css">
+</head>
+<body data-page="post">
+    <header class="topbar">
+        <a class="brand" href="../index.html" aria-label="NutriGLP home">
+            <img src="../icon.png" alt="NutriGLP logo" class="brand-mark">
+            <span class="brand-name">NUTRI<span>GLP</span></span>
+        </a>
+        <nav class="topnav" aria-label="Blog navigation">
+            <a href="../index.html">Home</a>
+            <a href="./">Blog</a>
+        </nav>
+        <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false">
+            <span class="theme-toggle__icon" aria-hidden="true">◐</span>
+            <span class="theme-toggle__label">Dark mode</span>
+        </button>
+    </header>
+
+    <main class="page-shell">
+        <a class="back-link" href="./">← Back to all posts</a>
+        <article class="post-article">
+            <div class="post-kicker">NutriGLP Journal</div>
+            <h1 id="post-title">Loading post...</h1>
+            <div id="post-meta" class="post-meta"></div>
+            <figure id="post-hero" class="post-hero"></figure>
+            <div id="post-body" class="prose"></div>
+        </article>
+
+        <section class="related-section">
+            <div class="section-head">
+                <div>
+                    <span class="section-kicker">More</span>
+                    <h2>Related posts</h2>
+                </div>
+            </div>
+            <div id="related-grid" class="post-grid"></div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="blog.js"></script>
+</body>
+</html>

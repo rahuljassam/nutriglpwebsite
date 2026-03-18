@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NutriGLP Journal</title>
+    <meta name="description" content="Practical notes, updates, and routines for the NutriGLP community.">
+    <link rel="icon" href="../icon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        (function () {
+            var savedTheme = localStorage.getItem('nutriglp-theme');
+            var theme = savedTheme === 'dark' ? 'dark' : 'light';
+            document.documentElement.dataset.theme = theme;
+        }());
+    </script>
+    <link rel="stylesheet" href="blog.css">
+</head>
+<body data-page="index">
+    <header class="topbar">
+        <a class="brand" href="../index.html" aria-label="NutriGLP home">
+            <img src="../icon.png" alt="NutriGLP logo" class="brand-mark">
+            <span class="brand-name">NUTRI<span>GLP</span></span>
+        </a>
+        <nav class="topnav" aria-label="Blog navigation">
+            <a href="../index.html">Home</a>
+            <a href="./">Blog</a>
+        </nav>
+        <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false">
+            <span class="theme-toggle__icon" aria-hidden="true">◐</span>
+            <span class="theme-toggle__label">Dark mode</span>
+        </button>
+    </header>
+
+    <main class="page-shell">
+        <section class="hero">
+            <div class="eyebrow">NutriGLP Journal</div>
+            <h1>Practical writing for better GLP-1 routines.</h1>
+            <p>
+                Short, useful posts for shot-day habits, nutrition tracking, and the small systems that make
+                progress feel steady.
+            </p>
+        </section>
+
+        <section class="featured-section">
+            <div class="section-head">
+                <div>
+                    <span class="section-kicker">Featured</span>
+                    <h2>Latest spotlight</h2>
+                </div>
+                <p id="status" class="status">Loading posts from GitHub...</p>
+            </div>
+            <div id="featured-post" class="featured-post"></div>
+        </section>
+
+        <section class="list-section">
+            <div class="section-head">
+                <div>
+                    <span class="section-kicker">Archive</span>
+                    <h2>All posts</h2>
+                </div>
+            </div>
+            <div id="post-grid" class="post-grid"></div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="blog.js"></script>
+</body>
+</html>
