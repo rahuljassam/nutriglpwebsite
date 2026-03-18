@@ -509,46 +509,59 @@ ul {
 
 .hero-device-stack {
     position: relative;
-    min-height: 360px;
+    min-height: 540px;
     margin: 22px 0 20px;
 }
 
 .hero-device {
     position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     overflow: hidden;
+    padding: 10px;
     border-radius: 28px;
     border: 1px solid var(--border-strong);
     background: var(--surface-solid);
     box-shadow: var(--shadow-strong);
+    aspect-ratio: 1179 / 2556;
 }
 
-.hero-device img,
+.hero-device img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: top center;
+    border-radius: 20px;
+}
+
 .phone-frame img,
 .gallery-phone img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: auto;
+    object-fit: contain;
 }
 
 .hero-device-front {
-    inset: 44px 70px 0 70px;
+    width: min(50%, 235px);
+    left: 50%;
+    top: 8px;
+    transform: translateX(-50%);
     z-index: 2;
 }
 
 .hero-device-back {
-    width: 160px;
-    height: 300px;
-    left: 0;
-    top: 20px;
+    width: min(35%, 160px);
+    left: 12px;
+    top: 72px;
     transform: rotate(-8deg);
 }
 
 .hero-device-side {
-    width: 150px;
-    height: 280px;
-    right: 4px;
-    bottom: 12px;
-    transform: rotate(10deg);
+    width: min(33%, 148px);
+    right: 12px;
+    bottom: 30px;
+    transform: rotate(9deg);
 }
 
 .hero-note {
@@ -1171,21 +1184,24 @@ ul {
     }
 
     .hero-device-stack {
-        min-height: 300px;
+        min-height: 420px;
     }
 
     .hero-device-back {
-        width: 120px;
-        height: 220px;
+        width: min(34%, 122px);
+        left: 4px;
+        top: 56px;
     }
 
     .hero-device-front {
-        inset: 36px 44px 0 44px;
+        width: min(54%, 190px);
+        top: 0;
     }
 
     .hero-device-side {
-        width: 110px;
-        height: 210px;
+        width: min(31%, 108px);
+        right: 4px;
+        bottom: 24px;
     }
 
     .gallery-phone {
